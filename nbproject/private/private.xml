@@ -5,7 +5,7 @@
         <group>
             <file>file:/C:/xampp/htdocs/NathanLopez-blog/model/database.php</file>
             <file>file:/C:/xampp/htdocs/NathanLopez-blog/index.php</file>
-            <file>file:/C:/xampp/htdocs/NathanLopez-blog/create-db.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/create-db.php</file>
         </group>
     </open-files>
 </project-private>
