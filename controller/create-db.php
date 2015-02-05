@@ -23,14 +23,19 @@
      echo "Database already exists.";
          
      }
-     
+     // query doing well
      $query = $connection->query("CREATE TABLE  posts ("
              ."id int(11) NOT NULL AUTO_INCREMENT,"
              ."title varchar(255)NOT NULL,"
-             ."post textNOT NULL,"
+             ."post text NOT NULL,"
              ."PRIMARY KEY (id))");
      
      if($query){
-      echo "Succesfully create table:posts";
+      echo "Succesfully create table: posts";
+      
      }
+     else {
+         echo "<p>$connection->error</p>";
+     }
+         
      $connection->close();
