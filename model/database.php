@@ -17,16 +17,28 @@ class Database {
     }
 
     public function openConnection() {
-        $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
-        die("<p>Error: " . $connection->connect_error . "</p>");
+        $this->connection =  new mysqli($this->host, $this->username, $this->password, $this->database);  
+        if ($this->connection->connect_error) {
+    die("<p>Error: " . $this->connection->connect_error . "</p>");
+}
+
     }
+    
 
     public function closeConnection() {
-        
+        if(isset($this->connection) ) {
+         $this->connection->close();   
+        }
     }
 
     public function query($string) {
+        $this->openconnection();
         
+        $query = $this->connection->query($string);
+        
+        $this->closeConnection();
+        
+        return $query;        
     }
 
 }

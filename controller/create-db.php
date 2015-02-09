@@ -2,7 +2,7 @@
 
 require_once(__DIR__ . "/../model/Config.php");
 
-$connection = new mysqli($host, $username, $password);
+
 
 if ($connection->connect_error) {
     die("<p>Error: " . $connection->connect_error . "</p>");
@@ -30,4 +30,4 @@ if ($query) {
 } else {
     echo "<p>$connection->error</p>";
 }
-$connection->close();
+
