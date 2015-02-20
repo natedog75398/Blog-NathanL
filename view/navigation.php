@@ -1,5 +1,5 @@
 <?php
-require_once (__DIR__ . "/../Model/Config.php");
+require_once (__DIR__ . "/../model/Config.php");
 ?>
 <nav>
     <ul>

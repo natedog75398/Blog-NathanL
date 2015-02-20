@@ -4,7 +4,7 @@ session_start();
 
 session_regenerate_id(true);
 
-$path = "/RoblesC-BLOG/";
+$path = "/NathanLopez-blog/";
    
 $host = "localhost";
 
