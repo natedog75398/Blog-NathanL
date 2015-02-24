@@ -4,27 +4,33 @@
 
 <h1>Register</h1>
 
-<form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
-    
-    <div>
-        <label for="email">Email </label>
-        <input type="text" name="email" />
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
     </div>
-       
-    <div>
-        <label for="username">Username </label>
-        <input type="text" name="username" />
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
     </div>
-    
-    <div>
-         <label for="password">Password </label>
-         <input type="password" name="password" />
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
     </div>
-   
-    <div>
-        <button type="submit">Submit</button>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
     </div>
-    
+  </div>
 </form>
 
     
