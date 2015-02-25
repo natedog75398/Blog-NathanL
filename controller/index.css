@@ -9,9 +9,5 @@ h2{
 }
 
 body {
-  background: url('http://cmster.com/media/In1DyPcXb6ri5nvIeGF4jOdTkjF5eOws9UOF5XcQX81VBhcysAnjEEJ3KgcPKh3N.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-image: url('http://nguistyle.com/wp-content/uploads/2013/07/wood-slat-background.jpg');
 }
