@@ -1,7 +1,7 @@
 <?php
 require_once (__DIR__ . "/../model/config.php");
 ?>
-
+<center>
 <h1>Create Blog Post</h1>
 
 <form method="post" action="<?php echo $path . "controller/Create-post.php"; ?>">
@@ -19,4 +19,4 @@ require_once (__DIR__ . "/../model/config.php");
     </div>
 </form>
 
-    
+</center>

@@ -6,7 +6,7 @@
         header("Location: " . $path . "index.php");
         die();
     } 
-    
+    // to  create  a post
     $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
     $post = filter_input(INPUT_POST, "post", FILTER_SANITIZE_STRING);
             
@@ -14,8 +14,9 @@
     
     if($query){
         header("Location: " . $path . "index.php");
-    }
+    }//query location
     else{
         die();
     }
 
+//header location

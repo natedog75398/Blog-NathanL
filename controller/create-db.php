@@ -1,5 +1,5 @@
 <?php
-
+// my php
 require_once(__DIR__ . "/../model/config.php");
      require_once (__DIR__ . "/../controller/login-verify.php");
     
@@ -11,7 +11,7 @@ $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "title varchar(255) NOT NULL,"
         . "post text NOT NULL,"
         . "PRIMARY KEY (id))");
-
+//   query
 if ($query) {
     echo "<p>Succesfully a create table: posts</p>";
 } 

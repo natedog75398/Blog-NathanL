@@ -3,17 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/read-posts.php</file>
-            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/create-user.php</file>
-            <file>file:/C:/xampp/htdocs/NathanLopez-blog/model/config.php</file>
             <file>file:/C:/xampp/htdocs/NathanLopez-blog/view/header.php</file>
-            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/logout-user.php</file>
-            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/login-verify.php</file>
             <file>file:/C:/xampp/htdocs/NathanLopez-blog/index.php</file>
-            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/index.css</file>
-            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/create-post.php</file>
             <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/create-db.php</file>
             <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/login-user.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/read-posts.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/create-user.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/view/form.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/model/config.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/logout-user.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/login-verify.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/create-post.php</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/controller/index.css</file>
+            <file>file:/C:/xampp/htdocs/NathanLopez-blog/view/register-form.php</file>
         </group>
     </open-files>
 </project-private>

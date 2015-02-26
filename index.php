@@ -15,8 +15,14 @@
     <h1>Welcome to MTGz Blog</h1>
     
     <!-- Single button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <a class="btn btn-default" href="login.php" role="button">login</a>
+<a class="btn btn-default" href="controller/logout-user.php">logout</a>
+<a class="btn btn-default"  href="register.php">register</a>
+<a class="btn btn-default"  href="post.php">Post</a>
+
+    
+<!--<div class="btn-group">
+  <button id="MTGz" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
     MTGz<span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
@@ -24,7 +30,7 @@
     <li><a  href="register.php">register for mtgz blog</a></li>
     <li><a  href="controller/logout-user.php">Logout of the mtgz blog</a></li>
   </ul>
-</div>
+</div>-->
 
 <!-- Single button -->
 <div class="btn-group">

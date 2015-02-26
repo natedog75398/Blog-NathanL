@@ -1,5 +1,5 @@
 <?php
-
+//php for create user
     require_once(__DIR__ ."/../model/config.php");
          require_once (__DIR__ . "/../controller/login-verify.php");
     $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
@@ -19,3 +19,4 @@
  die();
     
     }
+// header die()

@@ -1,13 +1,29 @@
+.dropdown-menu{
+    text-align: center;
+}
+
+/*dropdown menu as  well*/
 h1{
     border-top: 2px solid purple;
     color:whitesmoke;
-    
+     /* border top*/
 }
 h2{
     padding: 35px;
     color: whitesmoke;
 }
-
+ /* index .css background for my website or  blog*/
 body {
     background-image: url('http://nguistyle.com/wp-content/uploads/2013/07/wood-slat-background.jpg');
+}///
+
+MTGz {
+    text-align: center;
+    
+}
+/*text*/
+
+.jumbotron{
+    position: fixed;
+    width: 85%;
 }
